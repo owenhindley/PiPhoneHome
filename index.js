@@ -17,7 +17,10 @@ var server = http.createServer(function(req, res){
 
 	res.end(resultString);
 });
-server.listen(80);
+
+var port = process.env.PORT || 8000
+
+server.listen(port);
 
 var io = socketio(server);
 
