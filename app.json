@@ -1,0 +1,8 @@
+{
+  "name": "Pi-phone-home",
+  "description": "allows pi to phone home and tell us the ip address",
+  "repository": "https://github.com/owenhindley/PiPhoneHome",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
