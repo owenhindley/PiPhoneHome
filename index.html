@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://127.0.0.1:80/socket.io/socket.io.js"></script>
+	<script>
+	var socket = io("http://127.0.0.1");
+
+	socket.on('connect', function(){
+		socket.emit("ip", {
+			ip : "127.0.0.1",
+			name : "MyTestName"
+		});
+	});
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
